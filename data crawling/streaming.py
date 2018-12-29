@@ -20,10 +20,10 @@ class MyListener(StreamListener):
         return twitter.OAuthHandler object
         '''
         try:
-            consumer_key = 'NzTjQ8zRqPwZ4cLSEEWUdVdjw'
-            consumer_secret = '5CVujT15x27zV9rWjRQnXKndzhv0X8Vs8f12gBce2yv5rvvYg6'
-            access_token = '757469703547879424-Kh4SPuIszS5H5KB6Y94rdVBEytD6dqZ'
-            access_secret = 'yo2FJonTg4MzDxfPEsNbxHePusYGUlvlfn1pM3Mnu389d'
+            consumer_key = <consumer_key>
+            consumer_secret = <consumer_secret>
+            access_token = <access_token>
+            access_secret = <access_secret>
         except KeyError:
             sys.stderr.write("TWITTER_* environment variables not set\n")
             sys.exit(1)
